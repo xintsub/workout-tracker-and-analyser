@@ -1,0 +1,4 @@
+Bench Press,3,soon
+Fly Machine,2,soon
+Skull Crusher,3,soon
+Lateral Raise,3,soon
