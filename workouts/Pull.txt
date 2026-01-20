@@ -1,0 +1,4 @@
+Lat Pulldown,3,soon
+Cable Row,3,soon
+Hammer Curl,3,soon
+Z Bar Curl,2,soon
