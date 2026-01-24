@@ -44,7 +44,6 @@ public class Workout {
                 }
             }
             
-
             try(Scanner file = new Scanner(chosen)){
                 while(file.hasNextLine()){
                     String data = file.nextLine();
@@ -60,9 +59,7 @@ public class Workout {
             workout.enterSets();
             workout.getExercises();
             workout.saveExercise();
-        }
-
-        
+        }   
     }
 
     public void analyse(){
@@ -105,20 +102,15 @@ public class Workout {
             System.out.println("Maximum Weight: " + maxWeight[0] + "\t( "+maxWeight[0]+" x "+(int)maxWeight[1]+" )");
             System.out.println("Maximum Rep:    " + (int)maxRep[0] + "\t( "+maxRep[1]+" x "+(int)maxRep[0]+" )");
 
-
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-
-
     }
 
     public void listWorkouts(){
-
     }
 
     public void deleteWorkout(){
-
     }
 
     public void newWorkout() throws IOException{
@@ -139,7 +131,7 @@ public class Workout {
                 int sCo = scan.nextInt();
                 scan.nextLine();
                 while(sCo <= 0){
-                    System.out.println("Set count must be greater than 0! Please enter again.");
+                    System.out.println("Set count must be greater than 0, Please enter again.");
                     sCo = scan.nextInt();
                     scan.nextLine();
                 }
@@ -151,7 +143,6 @@ public class Workout {
             return;
         }
         System.out.println("Workout succesfully created!");
-
     }
 
     public void addExercise(Exercise e){
